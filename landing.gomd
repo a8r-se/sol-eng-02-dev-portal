@@ -6,7 +6,7 @@
 ### <span style="color:purple">Welcome to the Ambassador Dev Portal</span> 
 
 
-#### <span style="color:blue">Available Services</span>   
+#### <span style="color:purple">Available Services</span>   
 
 The following services are exposed through this Ambassador instance:
 
@@ -38,7 +38,10 @@ The following services are exposed through this Ambassador instance:
             {{end}}
     </tbody>
 </table>
-
+  
+  
+  
+  
 <hr style="border:2px solid purple"> </hr>
 
 
