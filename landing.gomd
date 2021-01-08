@@ -58,10 +58,10 @@ The following services are exposed through this Ambassador instance:
 
 | Namespace          | Owner                          |<p style="text-align: center;">Host Name</p>|<p style="text-align: center;">Authentication Available</p>|<p style="text-align: center;">Rate Limiting Available</p>|<p style="text-align: center;">Service Preview Enabled</p>|
 |--------------------|--------------------------------|--------------- |--------------|---------------|-----------------------|
-| ambassador         | Operations                     | N/A            | N/A          | N/A           | N/A                   |
-| argocd             | Operations                     | *              | N/A          | N/A           | N/A                   |
+| ambassador         | Operations                     | <p style="text-align: center;">N\/A</p>            | N/A          | N/A           | N/A                   |
+| argocd             | Operations                     | |<p style="text-align: center;">*</p>              | N/A          | N/A           | N/A                   |
 | [default](https://aes-labs.com/docs/page/Default-Namespace)| Boutique Project Team          |<p style="text-align: center;">[aes-labs](https://aes-labs.com)</p>  | <p style="text-align: center;">Yes</p>           | <p style="text-align: center;">No</p>             | <p style="text-align: center;">Yes</p>                    |
-| [test](https://aes-labs.com/docs/page/Demo-Namespace)| Demo Team|<p style="text-align: center;">[aes-demo](https://aes-demo.com) [aes-labs](https://aes-labs.com)</p>            | <p style="text-align: center;">Yes</p>            | <p style="text-align: center;">Yes</p>            | <p style="text-align: center;">Yes</p>                   |
+| [test](https://aes-labs.com/docs/page/Demo-Namespace)| Demo Team|<p style="text-align: center;">[aes-demo](https://aes-demo.com), [aes-labs](https://aes-labs.com)</p>            | <p style="text-align: center;">Yes</p>            | <p style="text-align: center;">Yes</p>            | <p style="text-align: center;">Yes</p>                   |
 | [bazaar](https://aes-labs.com/docs/page/Bazaar-Namespace)| Bazaar Project Team |<p style="text-align: center;">[aes-demo](https://aes-demo.mturner.com)</p>             | <p style="text-align: center;">No</p>            | <p style="text-align: center;">Yes</p>            | <p style="text-align: center;">Yes</p>                    |
 
 
