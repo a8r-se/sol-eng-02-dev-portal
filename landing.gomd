@@ -4,6 +4,7 @@
 </span>
 
 ### <span style="color:purple">Welcome to the Ambassador Dev Portal</span> 
+    ![portal](https://user-images.githubusercontent.com/54988209/104044065-c1a46a00-51aa-11eb-9ac0-c96f32081981.png)
 
 
 #### <span style="color:purple">Available Services</span>   
@@ -66,7 +67,7 @@ Please see the Namespaces table below for information specific to your project.
 
 This content is fully customizable for your specific needs. 
 For details on customizing the portal, see https://www.getambassador.io/reference/dev-portal.
-        ![portal](https://user-images.githubusercontent.com/54988209/104044065-c1a46a00-51aa-11eb-9ac0-c96f32081981.png)
+        
 
 
 
