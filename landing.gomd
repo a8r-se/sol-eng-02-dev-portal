@@ -56,7 +56,7 @@ The following services are exposed through this Ambassador instance:
 
 #### <span style="color:blue">Available Namespaces</span>     
 
-| Namespace          | Owner                          | Host Name           |Authentication Available |Rate Limiting Available |Service Preview Enabled|
+| Namespace          | Owner                          |<p style="text-align: center;">Host Name</p>|<p style="text-align: center;">Authentication Available</p>|<p style="text-align: center;">Rate Limiting Available</p>|<p style="text-align: center;">Service Preview Enabled</p>|
 |--------------------|--------------------------------|--------------- |--------------|---------------|-----------------------|
 | ambassador         | Operations                     | N/A            | N/A          | N/A           | N/A                   |
 | argocd             | Operations                     | *              | N/A          | N/A           | N/A                   |
