@@ -39,14 +39,14 @@ The following services are exposed through this Ambassador instance:
     </tbody>
 </table>
 
-<span style="color:purple">----------------------------------------------------------------------------------------------------------------------------------------------------------</span>
+<hr style="border:2px solid purple"> </hr>
 
 
 These pages are designed to enable app dev teams by integrating self-service infrastructure with safety workflows.  
 Please see the Namespaces table below for information specific to your project.
 
 
-![dev-portal-image](https://user-images.githubusercontent.com/61284826/103486435-f5a71600-4dcb-11eb-867e-78ef59b7eef4.png)
+![portal](https://user-images.githubusercontent.com/54988209/104044065-c1a46a00-51aa-11eb-9ac0-c96f32081981.png)
 
 
 
