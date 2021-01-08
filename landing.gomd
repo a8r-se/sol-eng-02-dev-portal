@@ -7,11 +7,7 @@
 
 
 #### <span style="color:purple">Available Services</span>   
- <br />
- <br />
- <br />
- <br />
- <br /> 
+
 The following services are exposed through this Ambassador instance:
 
 <table cellpadding="2em" width="100%">
@@ -47,15 +43,18 @@ The following services are exposed through this Ambassador instance:
   
   
 <hr style="border:3px solid purple"> </hr>
+ <br />
+ <br />
+ <br />
+ <br />
+ <br /> 
 
 
-<pre>
 These pages are designed to enable app dev teams by integrating self-service infrastructure with safety workflows.  
-Please see the Namespaces table below for information specific to your project.
-</pre>
+Please see the Namespaces table below for information specific to your project.  
 
 
-![portal](https://user-images.githubusercontent.com/54988209/104044065-c1a46a00-51aa-11eb-9ac0-c96f32081981.png)
+            ![portal](https://user-images.githubusercontent.com/54988209/104044065-c1a46a00-51aa-11eb-9ac0-c96f32081981.png)
 
 
 
