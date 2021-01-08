@@ -5,31 +5,6 @@
 
 ### <span style="color:purple">Welcome to the Ambassador Dev Portal</span> 
 
-These pages are designed to enable app dev teams by integrating self-service infrastructure with safety workflows.  
-Please see the Namespaces table below for information specific to your project.
-
-
-![dev-portal-image](https://user-images.githubusercontent.com/61284826/103486435-f5a71600-4dcb-11eb-867e-78ef59b7eef4.png)
-
-
-
-This content is fully customizable for your specific needs. 
-For details on customizing the portal, see https://www.getambassador.io/reference/dev-portal.
-
-
-
-#### <span style="color:blue">Available Namespaces</span>     
-
-| Namespace          | Owner                          | Host Name           |Authentication Available |Rate Limiting Available |Service Preview Enabled|
-|--------------------|--------------------------------|--------------- |--------------|---------------|-----------------------|
-| ambassador         | Operations                     | N/A            | N/A          | N/A           | N/A                   |
-| argocd             | Operations                     | *              | N/A          | N/A           | N/A                   |
-| [default](https://aes-labs.com/docs/page/Default-Namespace)| Boutique Project Team          |[aes-labs](https://aes-labs.com)  | Yes          | No            | Yes                   |
-| [test](https://aes-labs.com/docs/page/Demo-Namespace)| Demo Team| [aes-demo](https://aes-demo.com) [aes-labs](https://aes-labs.com)            | Yes           | Yes           | Yes                   |
-| [bazaar](https://aes-labs.com/docs/page/Bazaar-Namespace)| Bazaar Project Team | [aes-demo](https://aes-demo.mturner.k736.net)             | No           | Yes           | Yes                   |
-
-
-
 
 #### <span style="color:blue">Available Services</span>   
 
@@ -63,4 +38,32 @@ The following services are exposed through this Ambassador instance:
             {{end}}
     </tbody>
 </table>
+landing.gomd
+
+
+
+These pages are designed to enable app dev teams by integrating self-service infrastructure with safety workflows.  
+Please see the Namespaces table below for information specific to your project.
+
+
+![dev-portal-image](https://user-images.githubusercontent.com/61284826/103486435-f5a71600-4dcb-11eb-867e-78ef59b7eef4.png)
+
+
+
+This content is fully customizable for your specific needs. 
+For details on customizing the portal, see https://www.getambassador.io/reference/dev-portal.
+
+
+
+#### <span style="color:blue">Available Namespaces</span>     
+
+| Namespace          | Owner                          | Host Name           |Authentication Available |Rate Limiting Available |Service Preview Enabled|
+|--------------------|--------------------------------|--------------- |--------------|---------------|-----------------------|
+| ambassador         | Operations                     | N/A            | N/A          | N/A           | N/A                   |
+| argocd             | Operations                     | *              | N/A          | N/A           | N/A                   |
+| [default](https://aes-labs.com/docs/page/Default-Namespace)| Boutique Project Team          |[aes-labs](https://aes-labs.com)  | Yes          | No            | Yes                   |
+| [test](https://aes-labs.com/docs/page/Demo-Namespace)| Demo Team| [aes-demo](https://aes-demo.com) [aes-labs](https://aes-labs.com)            | Yes           | Yes           | Yes                   |
+| [bazaar](https://aes-labs.com/docs/page/Bazaar-Namespace)| Bazaar Project Team | [aes-demo](https://aes-demo.mturner.k736.net)             | No           | Yes           | Yes                   |
+
+
 
