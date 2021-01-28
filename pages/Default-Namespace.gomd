@@ -1,6 +1,6 @@
-| Namespace          | <p style="text-align: center;">Owner</p>                          | <p style="text-align: center;">Host</p>           |<p style="text-align: center;">Authentication Available</p> |<p style="text-align: center;">Rate Limiting Available</p> |<p style="text-align: center;">Service Preview Enabled</p>|
-|--------------------|--------------------------------|--------------- |-------------------------|------------------------|-----------------------|
-| bazaar             | <p style="text-align: center;">Bazaar Project Team</p>            | <p style="text-align: center;">aes-demo.com</p>   | <p style="text-align: center;">Yes</p>                     | <p style="text-align: center;">Yes</p>                    | <p style="text-align: center;">Yes</p>                   |
+| Namespace          | <p style="text-align: center;">Owner</p>                | <p style="text-align: center;">Host</p>        |<p style="text-align: center;">Authentication Available</p> |<p style="text-align: center;">Rate Limiting Available</p> |<p style="text-align: center;">Service Preview Enabled</p>|
+|--------------------|--------------------------------|------------------------|------------------------------------------------|------------------------------------------------------------|-----------------------------------------------------------|----------------------------------------------------------|
+| bazaar             | <p style="text-align: center;">EdgyCorp Project Team</p>| <p style="text-align: center;">aes-demo.com</p>| <p style="text-align: center;">Yes</p>                     | <p style="text-align: center;">Yes</p>                    | <p style="text-align: center;">Yes</p>                   |
 
 
 <pre>
@@ -10,11 +10,11 @@
 apiVersion: getambassador.io/v2
 kind: FilterPolicy
 metadata:
-  name: bazaar-auth-filter-policy
-  namespace: bazaar
+  name: edgycorp-auth-filter-policy
+  namespace: default
 spec:
   rules:
-    - host: "aes-demo.mturner.k736.net" 
+    - host: "aes-demo.com" 
       path: /foo/         <span style="color:green"># update this value</span>
       filters:
         - name: keycloak-oauth2-filter
