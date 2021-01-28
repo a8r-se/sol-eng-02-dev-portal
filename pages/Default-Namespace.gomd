@@ -4,7 +4,7 @@
 
 
 
-![architecture-diagram](https://user-images.githubusercontent.com/61284826/103575405-b21ddc00-4e9f-11eb-8006-9f1eaf09d8b0.png)
+![architecture-diagram](![edgycorp](https://user-images.githubusercontent.com/54988209/106171106-2fff9b00-615f-11eb-9b5b-9e682573a0c1.png))
 
 
 <pre>
@@ -14,7 +14,7 @@ apiVersion: getambassador.io/v2
 kind: Mapping
 metadata:
   name: name-here              <span style="color:green"># update this value</span>
-  namespace: boutique  
+  namespace: default  
 spec:
   prefix: /prefix-here/        <span style="color:green"># update this value</span>
   service: service-here        <span style="color:green"># update this value</span>
@@ -32,11 +32,11 @@ spec:
 apiVersion: getambassador.io/v2
 kind: FilterPolicy
 metadata:
-  name: fronted-authfilter-policy
-  namespace: boutique
+  name: default-authfilter-policy
+  namespace: default
 spec:
   rules:
-    - host: "aes-labs.com" 
+    - host: "aes-demo.com" 
       path: /prefix-here/         <span style="color:green"># update this value</span>
       filters:
         - name: keycloak-oauth2-filter
