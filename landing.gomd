@@ -55,7 +55,7 @@ The following services are exposed through this Ambassador instance:
 
 
 #### <span style="color:purple">Available Namespaces</span>   
-For a comprehensive view of all services deployed across your cluster, login into [Ambassador Service Catalogue](https://app.getambassador.io/cloud/catalog/)
+Login into [Ambassador Service Catalogue](https://app.getambassador.io/cloud/catalog/) for a comprehensive view of all services deployed across your cluster. 
 
 
 | Namespace                                                         | Owner                 |<p style="text-align: center;">Host Name</p>                                                         |<p style="text-align: center;">Authentication Available</p>|<p style="text-align: center;">Rate Limiting Available</p>|<p style="text-align: center;">Service Preview Enabled</p>|
