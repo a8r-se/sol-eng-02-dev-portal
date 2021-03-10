@@ -64,6 +64,10 @@ The following services are exposed through this Ambassador instance:
 | [default](https://aes-labs.com/docs/page/Default-Namespace)       | EdgyCorp Project Team |<p style="text-align: center;">[aes-labs](https://aes-labs.com)</p>                                  |<p style="text-align: center;">No</p>                      |<p style="text-align: center;">Yes</p>                    |<p style="text-align: center;">Yes</p>                    |
 | [test](https://demo-aes.com/docs/page/Demo-Namespace)             | Demo Team             |<p style="text-align: center;">[demo-aes](https://demo-aes.com), [aes-labs](https://edgestack-aes.com)</p>|<p style="text-align: center;">Yes</p>                     |<p style="text-align: center;">Yes</p>                    |<p style="text-align: center;">Yes</p>                    |
 
-
-
-
+ <br />
+ <br />
+<hr style="border:6px solid purple"> </hr>
+ <br />
+For a comprehensive view of all services deployed across your cluster, login into [Ambassador Service Catalogue](https://app.getambassador.io/cloud/catalog/)
+ <br />
+<hr style="border:6px solid purple"> </hr>
