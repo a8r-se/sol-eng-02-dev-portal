@@ -1,10 +1,11 @@
 | Namespace          | Owner                          |<p style="text-align: center;">Host</p>        |<p style="text-align: center;">Authentication Available</p>|<p style="text-align: center;">Rate Limiting Available|<p style="text-align: center;">Service Preview Enabled</p>|
 |--------------------|--------------------------------|-----------------------------------------------|-----------------------------------------------------------|------------------------------------------------------|----------------------------------------------------------|
-| boutique           | Boutique Project Team          |<p style="text-align: center;">aes-labs.com</p>| <p style="text-align: center;">Yes</p>                    | <p style="text-align: center;">Yes</p>               | <p style="text-align: center;">Yes</p>                   |
+| boutique           | Boutique Project Team          |<p style="text-align: center;">demo-aes.com</p>| <p style="text-align: center;">Yes</p>                    | <p style="text-align: center;">Yes</p>               | <p style="text-align: center;">Yes</p>                   |
 
  <p style="text-align: center;">Owner</p>
 
-![architecture-diagram-boutique](https://user-images.githubusercontent.com/54988209/111177573-bdb50f80-8580-11eb-94f1-ed1570bb0c57.png)
+![architecture-diagram-boutique](https://user-images.githubusercontent.com/54988209/111213721-74c48180-85a7-11eb-8353-8323aa1c75b7.png)
+
 
 
 <pre>
@@ -36,7 +37,7 @@ metadata:
   namespace: boutique
 spec:
   rules:
-    - host: "aes-labs.com" 
+    - host: "demo-aes.com" 
       path: /prefix-here/         <span style="color:green"># update this value</span>
       filters:
         - name: keycloak-oauth2-filter
