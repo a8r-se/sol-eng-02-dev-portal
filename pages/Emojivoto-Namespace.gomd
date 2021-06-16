@@ -3,9 +3,8 @@
 | Emojivoto          | Emojivoto Project Team         |<p style="text-align: center;">https://emojivoto.linkerd.amb-labs.io/</p>| <p style="text-align: center;">Yes</p>                    | <p style="text-align: center;">Yes</p>               | <p style="text-align: center;">Yes</p>                   |
 
 
-A microservice application that allows users to vote for their favorite emoji, and tracks votes received on a leaderboard. May the best emoji win.  
-
-The application is composed of the following 3 services:  
+<span style="color:blue">A microservice application that allows users to vote for their favorite emoji, and tracks votes received on a leaderboard. May the best emoji win.    
+The application is composed of the following 3 services:</span>    
 
 ```
 emojivoto-web: Web frontend and REST API
