@@ -1,6 +1,6 @@
 | Namespace          | Owner                          |<p style="text-align: center;">Host</p>        |<p style="text-align: center;">Authentication Available</p>|<p style="text-align: center;">Rate Limiting Available|<p style="text-align: center;">Service Preview Enabled</p>|
 |--------------------|--------------------------------|-----------------------------------------------|-----------------------------------------------------------|------------------------------------------------------|----------------------------------------------------------|
-| test               | EdgyCorp Project Team          |<p style="text-align: center;">aes-demo.com</p>| <p style="text-align: center;">Yes</p>                    | <p style="text-align: center;">Yes</p>               | <p style="text-align: center;">Yes</p>                   |
+| Emojivoto          | Emojivoto Project Team         |<p style="text-align: center;">https://emojivoto.linkerd.amb-labs.io/</p>| <p style="text-align: center;">Yes</p>                    | <p style="text-align: center;">Yes</p>               | <p style="text-align: center;">Yes</p>                   |
 
 
 
@@ -37,11 +37,11 @@ metadata:
   namespace: test
 spec:
   rules:
-    - host: "edgestack-aes.com" 
+    - host: "emojivoto.linkerd.amb-labs.io" 
       path: /prefix-here/         <span style="color:green"># update this value</span>
       filters:
         - name: keycloak-oauth2-filter
-          namespace: ambassador
+          namespace: emojivoto
           arguments:
             scopes:
               - "offline_access"
