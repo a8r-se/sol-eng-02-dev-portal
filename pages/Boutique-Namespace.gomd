@@ -1,6 +1,6 @@
-| Namespace          | Owner                          |<p style="text-align: center;">Host</p>        |<p style="text-align: center;">Authentication Available</p>|<p style="text-align: center;">Rate Limiting Available|<p style="text-align: center;">Service Preview Enabled</p>|
-|--------------------|--------------------------------|-----------------------------------------------|-----------------------------------------------------------|------------------------------------------------------|----------------------------------------------------------|
-| boutique           | Boutique Project Team          |<p style="text-align: center;">demo-aes.com</p>| <p style="text-align: center;">Yes</p>                    | <p style="text-align: center;">Yes</p>               | <p style="text-align: center;">Yes</p>                   |
+| Namespace          | Owner                          |<p style="text-align: center;">Host</p>                                   |<p style="text-align: center;">Argo Rollouts Engabled</p>|<p style="text-align: center;">Github Validation Enabled|<p style="text-align: center;">Service Preview Enabled</p>|
+|--------------------|--------------------------------|--------------------------------------------------------------------------|---------------------------------------------------------|--------------------------------------------------------|----------------------------------------------------------|
+| boutique           | Boutique Project Team          |<p style="text-align: center;">https://boutique.se02.mturner.k736.net/</p>| <p style="text-align: center;">Yes</p>                  | <p style="text-align: center;">Yes</p>                 | <p style="text-align: center;">Yes</p>                   |
 
  <p style="text-align: center;">Owner</p>
 
