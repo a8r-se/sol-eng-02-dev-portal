@@ -1,6 +1,6 @@
-| Namespace          | Owner                          |<p style="text-align: center;">Host</p>        |<p style="text-align: center;">Authentication Available</p>|<p style="text-align: center;">Rate Limiting Available|<p style="text-align: center;">Telepresence Enabled</p>|
-|--------------------|--------------------------------|-----------------------------------------------|-----------------------------------------------------------|------------------------------------------------------|----------------------------------------------------------|
-| Emojivoto          | Emojivoto Project Team         |<p style="text-align: center;">https://emojivoto.linkerd.amb-labs.io/</p>| <p style="text-align: center;">Yes</p>                    | <p style="text-align: center;">Yes</p>               | <p style="text-align: center;">Yes</p>                   |
+| Namespace          | Owner                          |<p style="text-align: center;">Host</p>                                    |<p style="text-align: center;">Argo Rollouts Enabled</p>|<p style="text-align: center;">Github Validation Enabled|<p style="text-align: center;">Telepresence Enabled</p>   |
+|--------------------|--------------------------------|---------------------------------------------------------------------------|--------------------------------------------------------|--------------------------------------------------------|----------------------------------------------------------|
+| Emojivoto          | Emojivoto Project Team         |<p style="text-align: center;">https://emojivoto.se02.mturner.k736.net/</p>| <p style="text-align: center;">Yes</p>                 | <p style="text-align: center;">Yes</p>                 | <p style="text-align: center;">Yes</p>                   |
 
 
 <span style="color:blue">A microservice application that allows users to vote for their favorite emoji, and tracks votes received on a leaderboard. May the best emoji win.    
